@@ -1,7 +1,7 @@
-![icon](https://github.com/uid100/DansStoreSln/raw/master/OutdoorProducts/wwwroot/images/cartempty.png)
-[url](https://outdoorproducts.azurewebsites.net)
+![icon](https://github.com/DannyX424/DanTheManStoreSln)
+[url](https://CampingStuff.azurewebsites.net)
 
-# DansStoreSln
+# DanTheManSln
 This is a build of the demo MVC app from Adam Freeman's ASP.NET Core 3 textbook. This is for demonstration purpose.
 
 ## link
@@ -9,14 +9,12 @@ This is a build of the demo MVC app from Adam Freeman's ASP.NET Core 3 textbook.
 
 ## Build Script
 
-    dotnet new globaljson --sdk-version 5.0.201 --output DansStoreSln/OutdoorProducts
-    dotnet new web --no-https --output DansStoreSln/OutdoorProducts --framework net5.0
-    dotnet new sln -o DansStoreSln
-    dotnet sln DansStoreSln add DansStoreSln/OutdoorProducts
-    dotnet new xunit -o DansStoreSln/OutdoorProducts.Tests --framework net5.0
-    dotnet sln DansStoreSln add DansStoreSln/OutdoorProducts.Tests 
-    dotnet add DansStoreSln/OutdoorProducts.Tests reference DansStoreSln/OutdoorProducts
+    dotnet new globaljson --sdk-version 5.0.201 --output DanTheManSln/CampingStuff
+    dotnet new web --no-https --output DanTheManSln/CampingStuff --framework net5.0
+    dotnet new sln -o DanTheManSln
+    dotnet sln DanTheManSln add DanTheManSln/CampingStuff
+    dotnet new xunit -o DanTheManSln/CampingStuff.Tests --framework net5.0
+    dotnet sln DansStoreSln add DanTheManSln/CampingStuff.Tests 
+    dotnet add DanTheManSln/CampingStuff.Tests reference DanTheManSln/CampingStuff
     
-![Updated Unit Tests through Ch.8  1-Apr-21](https://github.com/uid100/DansStoreSln/blob/master/screenshots/UnitTests.JPG)
 
-updated through ch.10 (cart / orders / admin pages)
